@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 1. Styles: -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- 2. Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 3. Favicon -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Order summary card - Joel Leon</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bg__wave">
+      <div class="wave w1"></div>
+    </div>
+    <main>
+      <div class="order__container">
+        <img class="order__img--hero" src="img/illustration-hero.svg" />
+        <div class="order__summary--container flex-column">
+          <h1 class="order__title">Order summary</h1>
+          <p class="order__text">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <div class="order__plan--container flex-btw">
+            <div class="order__plan--suscription flex-btw">
+              <img
+                class="order__plan--img"
+                width="50px"
+                height="50px"
+                src="img/icon-music.svg"
+              />
+              <div class="order__plan--price">
+                <h2 class="order__plan--subtitle">Annual Plan</h2>
+                <p class="order__plan--final-price">$ 59.99/year</p>
+              </div>
+            </div>
+            <a href="">Change</a>
+          </div>
+          <button class="btn btn__color">Proceed to Payment</button>
+          <button class="btn btn__link">Cancel Order</button>
+        </div>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://www.linkedin.com/in/ijoel23/" target="_blank"
+          >Joel Leon</a
+        >.
+      </div>
+    </main>
+  </body>
+</html>
